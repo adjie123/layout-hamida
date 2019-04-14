@@ -1,0 +1,67 @@
+body{
+	background-color: #f5f5f5b3;
+}
+.bg-green{
+	background-color: #108690 !important;
+}
+.price-text, .green-text{
+	color: #108690 !important;
+}
+.bg-green-category{
+	height: 40px;
+	background-color: #107080 !important;
+}
+.logo-hamida{
+	width: 150px;
+	height: 50px;
+}
+.icon-image{
+	width: 25px;
+	height: auto;
+}
+
+.navbar-light .navbar-brand {
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #ccc !important;
+}
+
+.navbar-padding-space{
+	padding-left: 30px;
+	padding-right: 30px;
+}
+
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+	}
+	.col-small-space{
+		padding-right: 5px;
+		padding-left: 5px;
+	}
+	.col-large-space{
+		padding: 40px;
+	}
+
+	.category-comp{
+		margin-bottom: 10px;
+		height: 45px;
+		background-image: url('asset/component/comp-category.png');
+	}
+	.remove-effect-hover{
+		color: black;
+	}
+	 a:hover.remove-effect-hover{
+		text-decoration: none; 
+		color: #108690;
+	}

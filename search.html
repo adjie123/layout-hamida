@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+   <head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+      <!-- Custom CSS -->
+      <link rel="stylesheet" type="text/css" href="custom/css/custom.css">
+      <style type="text/css">
+      	.form-check{
+      		margin-top: 0px;
+      		margin-bottom: 0px;
+      	}
+      </style>
+      <title>Toko Hamida</title>
+   </head>
+   <body>
+      <!-- Navbar -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-green">
+         <a class="navbar-brand" href="#">
+         <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+         TOKO HAMIDA
+         </a>
+         <div class="collapse navbar-collapse">
+            <!-- Input Pencarian -->
+            <form class="mx-2 my-auto d-inline w-100">
+               <div class="input-group">
+                  <input type="text" class="form-control" placeholder="Cari Barang Mu">
+                  <span class="input-group-append">
+                  <button class="btn btn-info" type="button"><img src="asset/icon-pack/icon-search.png" class="icon-image"></button>
+                  </span>
+               </div>
+            </form>
+            <!-- End mx-2 my-auto d-inline w-100 -->
+            <ul class="navbar-nav">
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <img src="asset/icon-pack/icon-cart.png" class="icon-image">
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="margin-top: 7px; left: -240%;">
+                     <a class="dropdown-item" href="#">Akun Saya</a>
+                     <a class="dropdown-item" href="#">Jual Barang</a>
+                     <a class="dropdown-item" href="#">Riwayat Pembelian</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="#"><button class="btn btn-info btn-sm btn-block">Keluar</button></a>
+                  </div>
+               </li>
+               <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Halo, User
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="margin-top: 7px; left: -90%;">
+                     <a class="dropdown-item" href="#">Akun Saya</a>
+                     <a class="dropdown-item" href="#">Jual Barang</a>
+                     <a class="dropdown-item" href="#">Riwayat Pembelian</a>
+                     <div class="dropdown-divider"></div>
+                     <a class="dropdown-item" href="#"><button class="btn btn-info btn-sm btn-block">Keluar</button></a>
+                  </div>
+               </li>
+               <li class="nav-item">
+                  <a href="#" class="remove-effect-hover">
+                  <img src="asset/icon-pack/icon-quest.png" width="40" height="40">
+                  </a>
+               </li>
+            </ul>
+         </div>
+      </nav>
+      <!-- End navbar navbar-expand-lg navbar-light bg-light -->
+      <!-- Navbar Kategori -->
+      <nav class="navbar navbar-expand-lg navbar-light bg-green-category">
+         <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+               <li class="nav-item navbar-padding-space active">
+                  <a class="nav-link" href="#">Buku & Kitab</a>
+               </li>
+               <li class="nav-item navbar-padding-space">
+                  <a class="nav-link" href="#">Fashion Pria</a>
+               </li>
+               <li class="nav-item navbar-padding-space">
+                  <a class="nav-link" href="#">Fashion Wanita</a>
+               </li>
+               <li class="nav-item navbar-padding-space">
+                  <a class="nav-link" href="#">Alat Sholat & Aksesoris</a>
+               </li>
+               <li class="nav-item navbar-padding-space">
+                  <a class="nav-link" href="#">Alat Tulis & Kantor</a>
+               </li>
+               <li class="nav-item navbar-padding-space">
+                  <a class="nav-link" href="#">Makanan & Minuman</a>
+               </li>
+            </ul>
+            <!-- End navbar-nav -->
+         </div>
+         <!-- End  collapse navbar-collapse-->
+      </nav>
+      <!-- End Navbar Kategori navbar navbar-light bg-light-->
+      <div class="container">
+      	
+      </div>
+      <div class="row" style="margin-top: 20px; padding-left: 2%; padding-right: 2%;">
+         <div class="col-2">
+         	<form>
+         		<div class="card" style="padding: 5%;">
+	            	<h5 class="card-title">Filter</h5>
+	            	<div class="dropdown-divider"></div>
+	            	
+	            	<h6 class="card-title">Kategori</h6>
+	            		<div class="form-group form-check">
+						    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+						    <label class="form-check-label" for="exampleCheck1">Hijab</label>
+						 </div>
+	            		<div class="form-group form-check">
+						    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+						    <label class="form-check-label" for="exampleCheck1">Fashion Wanita</label>
+						 </div>
+	            	
+	            	<div class="dropdown-divider"></div>
+	            	<h6 class="card-title">Batas Harga</h6>
+	            		
+						 <div class="form-group">
+						 	<label for="exampleInputPassword1">Harga Minimal</label>
+						    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Rp. ">
+						 </div>
+						 <div class="form-group">
+						 	<label for="exampleInputPassword1">Harga Maksimal</label>
+						    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Rp. ">
+						 </div>
+
+					<button class="btn btn-outline-info btn-block" type="button">Terapkan</button>
+	            </div>
+	            <!-- End card -->
+         	</form>
+         	<!-- End form filter -->
+          
+         </div>
+         <!-- End col-2 -->
+         <div class="col-10 category-comp" style=" height: 100%;">
+            <h5 style="padding: 10px;">Produk Rekomendasi</h5>
+            <div class="row">
+               <!-- col-2 col-small-space -->
+               <div class="col-2 col-small-space">
+                  <a href="#" class="remove-effect-hover">
+                     <div class="card">
+                        <img class="card-img-top" src="asset/source/cat-atk.png" alt="image" style="width:100%;">
+                        <div class="card-body">
+                           <h6 class="card-title">Sling Bag Wanova Black</h6>
+                           <p class="card-text price-text">Rp. 236.000</p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <!-- End col-2 col-small-space -->
+               <!-- col-2 col-small-space -->
+               <div class="col-2 col-small-space">
+                  <a href="#" class="remove-effect-hover">
+                     <div class="card">
+                        <img class="card-img-top" src="asset/source/cat-makanan.png" alt="image" style="width:100%;">
+                        <div class="card-body">
+                           <h6 class="card-title">Tas Pria Kekinian</h6>
+                           <p class="card-text price-text">Rp. 236.000</p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <!-- End col-2 col-small-space -->
+               <!-- col-2 col-small-space -->
+               <div class="col-2 col-small-space">
+                  <a href="#" class="remove-effect-hover">
+                     <div class="card">
+                        <img class="card-img-top" src="asset/source/cat-atk.png" alt="image" style="width:100%;">
+                        <div class="card-body">
+                           <h6 class="card-title">Sling Bag Wanova Black</h6>
+                           <p class="card-text price-text">Rp. 236.000</p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <!-- End col-2 col-small-space -->
+               <!-- col-2 col-small-space -->
+               <div class="col-2 col-small-space">
+                  <a href="#" class="remove-effect-hover">
+                     <div class="card">
+                        <img class="card-img-top" src="asset/source/cat-makanan.png" alt="image" style="width:100%;">
+                        <div class="card-body">
+                           <h6 class="card-title">Tas Pria Kekinian</h6>
+                           <p class="card-text price-text">Rp. 236.000</p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <!-- End col-2 col-small-space-->
+               <!-- col-2 col-small-space -->
+               <div class="col-2 col-small-space">
+                  <a href="#" class="remove-effect-hover">
+                     <div class="card">
+                        <img class="card-img-top" src="asset/source/cat-makanan.png" alt="image" style="width:100%;">
+                        <div class="card-body">
+                           <h6 class="card-title">Tas Pria Kekinian</h6>
+                           <p class="card-text price-text">Rp. 236.000</p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <!-- End col-2 col-small-space-->
+               <!-- col-2 col-small-space -->
+               <div class="col-2 col-small-space">
+                  <a href="#" class="remove-effect-hover">
+                     <div class="card">
+                        <img class="card-img-top" src="asset/source/cat-makanan.png" alt="image" style="width:100%;">
+                        <div class="card-body">
+                           <h6 class="card-title">Tas Pria Kekinian</h6>
+                           <p class="card-text price-text">Rp. 236.000</p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <!-- End col-2 col-small-space-->
+               <!-- col-2 col-small-space -->
+               <div class="col-2 col-small-space">
+                  <a href="#" class="remove-effect-hover">
+                     <div class="card">
+                        <img class="card-img-top" src="asset/source/cat-makanan.png" alt="image" style="width:100%;">
+                        <div class="card-body">
+                           <h6 class="card-title">Tas Pria Kekinian</h6>
+                           <p class="card-text price-text">Rp. 236.000</p>
+                        </div>
+                     </div>
+                  </a>
+               </div>
+               <!-- End col-2 col-small-space-->
+            </div>
+		    <div class="col-12" style="margin-top: 100px;">
+		        <button type="button" class="btn btn-outline-info btn-lg btn-block">Lihat Lebih Banyak</button>
+		    </div>
+         </div>
+         <!-- End col-8 -->
+      </div>
+      <!-- End row -->
+      <footer class="bg-green">
+         <div class="container text-white">
+            <div class="row">
+               <div class="col-6 col-large-space">
+                  <h4>Toko Hamida</h4>
+                  <p class="text-justify">
+                     Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+                  </p>
+                  <h4>Our Office</h4>
+                  <p class="text-justify">
+                     Jl. HS.Ronggo Waluyo, Puseurjaya, Telukjambe Timur, Kabupaten Karawang, Jawa Barat 41361
+                  </p>
+               </div>
+               <div class="col-6 col-large-space">
+                  <h4>Sponshorship</h4>
+                  <a href="#" class="remove-effect-hover">
+                     <p class="text-justify">
+                        Pesantren X
+                     </p>
+                  </a>
+                  <a href="#" class="remove-effect-hover">
+                     <p class="text-justify">
+                        Pesantren X
+                     </p>
+                  </a>
+                  <a href="#" class="remove-effect-hover">
+                     <p class="text-justify">
+                        Pesantren X
+                     </p>
+                  </a>
+                  <a href="#" class="remove-effect-hover">
+                     <p class="text-justify">
+                        Pesantren X
+                     </p>
+                  </a>
+                  <a href="#" class="remove-effect-hover">
+                     <p class="text-justify">
+                        Pesantren X
+                     </p>
+                  </a>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- Optional JavaScript -->
+      <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+      <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+      <script src="bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+   </body>
+</html>
+
