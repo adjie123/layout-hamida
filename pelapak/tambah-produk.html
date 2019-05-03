@@ -104,7 +104,7 @@
       	
       </div>
       <div class="row" style="margin-top: 20px; padding-left: 2%; padding-right: 2%;">
-         <div class="col-2">
+         <div class="col-3">
          	<form>
          		<div class="card" style="padding: 5%;">
 	            	<button class="btn btn-flat btn-outline-info">Jual Barang</button>
@@ -124,41 +124,143 @@
          	<!-- End form filter -->
           
          </div>
-         <!-- End col-2 -->
-         <div class="col-10" style=" height: 100%; padding-right: 15%;">
-            <div class="card">
-               <div class="card-body">
-                  <h5 class="card-title">Profile Toko</h5>
-                  <div class="row" style="padding: 15px;">
-                     <div class="col-3 text-center">
-                        <img src="../asset/logo/avatar04.png" width="50%" height="auto" style="border-radius: 50%; margin-bottom: 20px;">
-                        <button class="btn btn-secondary btn-block">Upload Foto</button>
+         <!-- End col-4 -->
+         <div class="col-9" style=" height: 100%;">
+            <div class="card" style="padding: 5%;">
+               <div class="row">
+                  <div class="col-12">
+                     <div class="form-group">
+                        <label>Nama Produk</label>
+                        <input type="text" class="form-control" name="namapproduk">
                      </div>
-                     <!-- End col-4 -->
+                     <!-- End form-group -->
+                  </div>
+                  <!-- End col-12 -->
 
-                     <div class="col-9">
-                        <div class="form-group">
-                           <label>Nama Toko</label>
-                           <input type="text" class="form-control" id="namapembeli" name="namapembeli">
-                        </div>
-                        <!-- End form-group -->
-                        <div class="form-group">
-                           <label>Daerah</label>
-                           <input type="email" name="" class="form-control" >
-                        </div>
-                        <div class="form-group">
-                           <label>Alamat Toko</label>
-                           <textarea  name="" class="form-control" ></textarea>
-                        </div>
-                     </div>
-                     <!-- End col-7 -->
 
-                     <div class="col-12 text-right">
-                        <button type="submit" class="btn btn-info btn-flat">Simpan Profile</button>
+                  <div class="col-6">
+                     <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-4 col-form-label">Kategori</label>
+                        <div class="col-sm-8">
+                           <select class="form-control">
+                              <option></option>
+                              <option></option>
+                           </select>
+                        </div>
                      </div>
-                  </div> 
+                     <!-- End form-group row -->
+                  </div>
+                  <!-- End col-6 -->
+                  <div class="col-6">
+                     <div class="form-group row">
+                        <label for="staticEmail" class="col-sm-4 col-form-label">Sub Kategori</label>
+                        <div class="col-sm-8">
+                           <select class="form-control">
+                              <option></option>
+                              <option></option>
+                           </select>
+                        </div>
+                     </div>
+                     <!-- End form-group row -->
+                  </div>
+                  <!-- End col-6 -->
+
+
+                  <div class="col-6">
+                     <div class="form-group row">
+                        <label class="col-sm-4 col-form-label">Harga</label>
+                        <div class="col-sm-8">
+                           <input type="number" class="form-control" name="harga">
+                        </div>
+                     </div>
+                     <!-- End form-group row -->
+                  </div>
+                  <!-- End col-6 -->
+                  <div class="col-6">
+                     <div class="form-group row">
+                        <label class="col-sm-4 col-form-label">Stok (pcs)</label>
+                        <div class="col-sm-8">
+                           <input type="number" class="form-control" name="stok">
+                        </div>
+                     </div>
+                     <!-- End form-group -->
+                  </div>
+                  <!-- End col-6 -->
+
+                  <div class="dropdown-divider"></div>
+
+                  <div class="col-12">
+                     <div class="form-group row">
+                        <label class="col-sm-4 col-form-label">Status Stok</label>
+                        <div class="col-sm-8">
+                           <div class="form-check form-check-inline col-sm-4">
+                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1" value="selalutersedia">
+                             <label class="form-check-label" for="inlineRadio1">Selalu Tersedia</label>
+                           </div>
+                           <!-- End form-check form-check-inline -->
+                           <div class="form-check form-check-inline col-sm-4">
+                             <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2" value="terbatas">
+                             <label class="form-check-label" for="inlineRadio2">Terbatas</label>
+                           </div>
+                           <!-- End form-check form-check-inline -->
+                        </div>
+                        <!-- End col-sm-8 -->
+                     </div>
+                     <!-- End form-group row -->
+                  </div>
+                  <!-- End col=12 -->
+
+
+
+                  <div class="col-6">
+                     <div class="form-group row">
+                        <label class="col-sm-4 col-form-label">Jasa Pengiriman</label>
+                        <div class="col-sm-8">
+                           <select class="form-control">
+                              <option></option>
+                              <option></option>
+                           </select>
+                        </div>
+                     </div>
+                     <!-- End form-group row -->
+                  </div>
+                  <!-- End col-6 -->
+                  <div class="col-6">
+                     <div class="form-group row">
+                        <label class="col-sm-4 col-form-label">Berat (kg)</label>
+                        <div class="col-sm-8">
+                           <input type="number" class="form-control" name="berat">
+                        </div>
+                     </div>
+                     <!-- End form-group -->
+                  </div>
+                  <!-- End col-6 -->
+
+                  <div class="col-12">
+                     <label>Deskripsi Produk</label>
+                     <textarea class="form-control" rows="8"></textarea>
+                  </div>
+                  <!-- End col-12 -->
+
+                  <div class="col-12">
+                     <div class="form-group row">
+                        <label class="col-sm-4 col-form-label">Kondisi</label>
+                        <div class="col-sm-8">
+                           <select class="form-control">
+                              <option></option>
+                              <option></option>
+                           </select>
+                        </div>
+                     </div>
+                     <!-- End form-group row -->
+                  </div>
+
                </div>
-               <!-- End card-body -->
+               <!-- End row -->
+
+               <div class="col-12 text-right">
+                  <button type="submit" class="btn btn-info btn-flat">Tambah Produk</button>
+               </div>
             </div>
             <!-- End card -->
          </div>
